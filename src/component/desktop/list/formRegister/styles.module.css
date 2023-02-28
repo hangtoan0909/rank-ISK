@@ -1,0 +1,70 @@
+.formRegister label {
+    min-width: 200px;
+}
+
+.formRegister {
+    padding: 16px;
+}
+
+.formRegister button {
+    margin-top: 30px;
+}
+
+.info .item {
+    margin-bottom: 10px
+}
+
+.info .label {
+    min-width: 120px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.iconAdd {
+    font-size: 25px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.iconDelete {
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.customForm {
+    margin-top: 30px;
+}
+
+:global(.ant-input-number) {
+    width: 100% !important;
+}
+
+.formRank:first-child {
+    display: none;
+}
+
+.formRank >:global(.ant-row) {
+    border: 1px dashed #ccc;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    margin-right: 8px !important;
+}
+
+.formRank {
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
+    .iconDelete {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .iconDelete {
+        margin-left: 30px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}
